@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79fa8f37-d3d5-49d6-a271-5a2aed0cbc11" name="Changes" comment="" />
+    <list default="true" id="79fa8f37-d3d5-49d6-a271-5a2aed0cbc11" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,14 +41,23 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/HocTap/cypersoft/Git_project/cozastore/src/main/java/com/cybersoft/cozastoreJava21/ids",
+    "last_opened_file_path": "D:/HocTap/cypersoft/Git_project/cozastore/src/main/java/com/cybersoft/cozastoreJava21/service",
     "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HocTap\cypersoft\Git_project\cozastore\src\main\java\com\cybersoft\cozastoreJava21\service" />
+      <recent name="D:\HocTap\cypersoft\Git_project\cozastore\src\main\java\com\cybersoft\cozastoreJava21\payload" />
       <recent name="D:\HocTap\cypersoft\Git_project\cozastore\src\main\java\com\cybersoft\cozastoreJava21\ids" />
       <recent name="D:\HocTap\cypersoft\Git_project\cozastore\src\main\java\com\cybersoft\cozastoreJava21\Entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cybersoft.cozastoreJava21.config" />
+      <recent name="com.cybersoft.cozastoreJava21.controller" />
+      <recent name="com.cybersoft.cozastoreJava21.filter" />
+      <recent name="com.cybersoft.cozastoreJava21.utils" />
+      <recent name="com.cybersoft.cozastoreJava21.repository" />
     </key>
   </component>
   <component name="RunManager">
