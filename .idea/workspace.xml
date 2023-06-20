@@ -4,29 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79fa8f37-d3d5-49d6-a271-5a2aed0cbc11" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cybersoft/cozastoreJava21/Entity/CategoryTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cybersoft/cozastoreJava21/Entity/CategoryTag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cybersoft/cozastoreJava21/Entity/OrderDetailEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cybersoft/cozastoreJava21/Entity/OrderDetailEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cybersoft/cozastoreJava21/Entity/TagBlogEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cybersoft/cozastoreJava21/Entity/TagBlogEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cybersoft/cozastoreJava21/ids/CategoryTagIds.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cybersoft/cozastoreJava21/ids/OrderDetailIds.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cybersoft/cozastoreJava21/ids/TagBlogIds.class" beforeDir="false" />
-    </list>
+    <list default="true" id="79fa8f37-d3d5-49d6-a271-5a2aed0cbc11" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,7 +38,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/HocTap/cypersoft/cozastore_java21-main/cozastore_java21-main",
+    "last_opened_file_path": "D:/HocTap/cypersoft/Git_project/cozastore/src/main/java/com/cybersoft/cozastoreJava21/ids",
     "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
   }
 }]]></component>
@@ -64,13 +46,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\HocTap\cypersoft\Git_project\cozastore\src\main\java\com\cybersoft\cozastoreJava21\ids" />
       <recent name="D:\HocTap\cypersoft\Git_project\cozastore\src\main\java\com\cybersoft\cozastoreJava21\Entity" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.cybersoft.cozastoreJava21.Config" />
-      <recent name="com.cybersoft.cozastoreJava21.Utils" />
-      <recent name="com.cybersoft.cozastoreJava21.Filter" />
-      <recent name="com.cybersoft.cozastoreJava21.Repository" />
-      <recent name="com.cybersoft.cozastoreJava21.Provider" />
     </key>
   </component>
   <component name="RunManager">
