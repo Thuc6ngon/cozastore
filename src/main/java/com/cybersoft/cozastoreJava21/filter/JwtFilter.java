@@ -1,4 +1,4 @@
-package com.cybersoft.cozastoreJava21.filter;
+package com.cybersoft.cozastoreJava21.Filter;
 
 
 import com.cybersoft.cozastoreJava21.utils.JwtHelper;

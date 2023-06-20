@@ -1,7 +1,7 @@
-package com.cybersoft.cozastoreJava21.provider;
+package com.cybersoft.cozastoreJava21.Provider;
 
 import com.cybersoft.cozastoreJava21.Entity.UserEntity;
-import com.cybersoft.cozastoreJava21.repository.UserRepository;
+import com.cybersoft.cozastoreJava21.Repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.security.authentication.AuthenticationProvider;

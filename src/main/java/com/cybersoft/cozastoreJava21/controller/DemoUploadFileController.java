@@ -1,5 +1,6 @@
 package com.cybersoft.cozastoreJava21.controller;
 
+import com.cybersoft.cozastoreJava21.Exception.Filenotfoundexception;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;
@@ -29,18 +30,19 @@ public class DemoUploadFileController {
             Resource resource=new UrlResource(rootpath.resolve(filename).toUri()) ;
             if (resource.exists()) {
                 //nếu tồn tại thì mới cho phép download
-//                return ResponseEntity.ok()
-//                        .header(HttpHeaders.CONTENT_DISPOSITION,
-//                                "attachment; filename=\"" + resource.getFilename() + "\"")
-//                        .body(resource);
-            return new ResponseEntity<>(resource,HttpStatus.OK);
+                return ResponseEntity.ok()
+                        .header(HttpHeaders.CONTENT_DISPOSITION,
+                                "attachment; filename=\"" + resource.getFilename() + "\"")
+                        .body(resource);
+//            return new ResponseEntity<>(resource,HttpStatus.OK);
             }else {
                 // khi ném exception thì code sẽ dừng và văng ra lỗi
-                throw new RuntimeException("file not found");
+                throw new Filenotfoundexception(200,"file not found");
 
             }
         }catch (Exception e) {
-            throw new RuntimeException(e.getMessage());
+            throw new Filenotfoundexception(200,"file not found");
+
         }
 
 

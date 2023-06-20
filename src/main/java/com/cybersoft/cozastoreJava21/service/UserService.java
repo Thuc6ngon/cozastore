@@ -1,10 +1,9 @@
-package com.cybersoft.cozastoreJava21.service;
-
+package com.cybersoft.cozastoreJava21.Service;
 
 import com.cybersoft.cozastoreJava21.Entity.UserEntity;
 import com.cybersoft.cozastoreJava21.payload.request.SignupRequest;
-import com.cybersoft.cozastoreJava21.repository.UserRepository;
-import com.cybersoft.cozastoreJava21.service.imp.UserServiceImp;
+import com.cybersoft.cozastoreJava21.Repository.UserRepository;
+import com.cybersoft.cozastoreJava21.Service.IMP.UserServiceImp;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

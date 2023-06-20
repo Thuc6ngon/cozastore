@@ -1,7 +1,7 @@
-package com.cybersoft.cozastoreJava21.config;
+package com.cybersoft.cozastoreJava21.Config;
 
-import com.cybersoft.cozastoreJava21.filter.JwtFilter;
-import com.cybersoft.cozastoreJava21.provider.CustomAuthenProvider;
+import com.cybersoft.cozastoreJava21.Filter.JwtFilter;
+import com.cybersoft.cozastoreJava21.Provider.CustomAuthenProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
