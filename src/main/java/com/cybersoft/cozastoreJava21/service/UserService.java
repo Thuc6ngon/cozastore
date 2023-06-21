@@ -1,6 +1,7 @@
 package com.cybersoft.cozastoreJava21.Service;
 
 import com.cybersoft.cozastoreJava21.Entity.UserEntity;
+import com.cybersoft.cozastoreJava21.Exception.CustomException;
 import com.cybersoft.cozastoreJava21.payload.request.SignupRequest;
 import com.cybersoft.cozastoreJava21.Repository.UserRepository;
 import com.cybersoft.cozastoreJava21.Service.IMP.UserServiceImp;
@@ -21,6 +22,7 @@ public class UserService implements UserServiceImp {
     public boolean addUser(SignupRequest request) {
         boolean isSuccess = false;
         try{
+//            throw new RuntimeException();
             UserEntity user = new UserEntity();
             user.setUsername(request.getUsername());
             user.setPassword(passwordEncoder.encode(request.getPassword()));
@@ -29,7 +31,7 @@ public class UserService implements UserServiceImp {
             userRepository.save(user);
             isSuccess = true;
         }catch (Exception e){
-
+            throw new CustomException("loi"+e.getMessage());
         }
 
 
